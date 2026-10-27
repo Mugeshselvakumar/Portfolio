@@ -23,7 +23,7 @@ export interface Project {
     imageUrl?: string;     // Added for project images
     liveUrl?: string;      // Added for live hosting link (e.g. Journal Probe)
     previewType: 'app' | 'architecture' | 'flow';
-    previewLabel?: string;
+    
 }
 
 export const projects: Project[] = [
@@ -128,6 +128,11 @@ export const projects: Project[] = [
             'Low MSE and high SSIM values demonstrate strong preservation of visual quality in stego images.',
             'The framework was evaluated under noise, compression, and geometric attack scenarios to assess robustness.',
             'The layered design demonstrates the feasibility of combining post-quantum cryptography, symmetric encryption, and steganography for secure multimedia transmission.',
+        ],
+        scope: [
+            'Focuses on end-to-end multi-layered protection for medical IoT multimedia data (text, image, audio).',
+            'Includes Raspberry Pi embedded processing and server-backed key encapsulation/decapsulation.',
+            'Covers performance, perceptual distortion, and robustness evaluations under standard multimedia attacks.',
         ],
         limitations: [
             'Clinical validation and real-world hospital deployment were not part of the project scope.',
