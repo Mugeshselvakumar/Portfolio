@@ -41,7 +41,6 @@ export function Projects() {
                                             <ProjectPreview project={project} />
                                         )}
                                     </Link>
-                                    {/* <p className="text-[10px] text-muted mt-2 italic">{project.previewLabel}</p> */}
                                 </div>
 
                                 {/* Info */}
